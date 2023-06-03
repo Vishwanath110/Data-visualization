@@ -114,8 +114,7 @@ app.layout = html.Div(children=[
                                             # Place them next to each other using the division style
                                             ], style={'display': 'flex'}),  
                                           ]),
-                                
-                                html.H1('Vishwa', style={'textAlign': 'center', 'color': '#503D36', 'font-size': 24}),
+  
                                 # Add Computed graphs
                                 # REVIEW3: Observe how we add an empty division and providing an id that will be updated during callback
                                 html.Div([ ], id='plot1'),
